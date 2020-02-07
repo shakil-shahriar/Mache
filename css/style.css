@@ -1,0 +1,788 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+section {
+    padding: 40px 0;
+}
+
+header{
+    background: url(../img/banner.png);
+    background-position: center top;
+    background-size: cover;
+}
+
+.navbar{
+    padding: 30px 0;
+}
+
+.nav-link{
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.nav-link:hover{
+    color: #ed145b !important;
+}
+
+.head{
+    padding: 180px 0;
+}
+
+.head h1{
+    color: white;
+    font-size: 46px;
+    font-weight: 300;
+}
+
+.under-line{
+    display: block;
+    width: 20%;
+    margin: 35px auto;
+    border-bottom: 2px solid #ed145b;
+}
+
+.head p{
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.head-btn{
+    margin: 65px 0 48px;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background: #ed145b;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+
+.advertise-main{
+    background: #ed145b;
+    padding: 0;
+    position: relative;
+}
+
+.advertise{
+    background: #f4f4f4;
+    padding: 40px;
+    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.advertise-left{
+
+}
+
+.advertise-left h2{
+    color: #666666;
+    font-size: 38px;
+    font-style: italic;
+    font-weight: 300;
+    padding-top: 70px;
+}
+
+.under-line-2{
+    margin-left: 0;
+    width: 40%;
+}
+
+.advertise-left p{
+    font-size: 15px;
+    color: #666666;
+}
+
+.advertise-video{
+    margin: 50px 0 5px;
+}
+
+.advertise-left i{
+    margin-left: 10px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.advertise-right{
+
+}
+
+.advertise-right-img {
+    width: 60%;
+    position: absolute;
+    z-index: 1;
+    right: 1%;
+    top: 22%;
+}
+
+/* service section*/
+
+.service-main{
+    padding-top: 100px;
+}
+
+.service-main h2{
+    color: #5a5a5a;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 38px;
+}
+
+.under-line-2{
+
+}
+
+.service-main p{
+    color: #5a5a5a;
+    font-size: 15px;
+}
+
+.services{
+    text-align: center;
+    padding: 60px 0 30px;
+}
+
+.services img{
+
+}
+
+.services p{
+    margin-top: 30px;
+    color: #5a5a5a;
+    font-size: 15px;
+}
+
+
+/* Price Section */
+
+.plan{
+    background: #f4f4f4;
+}
+
+.plan-main{
+
+}
+
+.plan-main h2{
+
+}
+
+.under-line-4{
+
+}
+
+.plan-main p{
+
+}
+
+.plans{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.card-head{
+    position: relative;
+    background-color: #5a5a5a;
+    line-height: 1;
+    color: white;
+    font-weight: bold;
+}
+
+.card-head.special{
+    background-color: #ed145b !important;
+}
+
+.card-head p{
+    padding-top: 35px;
+    font-size: 20px;
+    margin-bottom: 0 !important;
+}
+
+.card-head span{
+    font-size: 50px;
+}
+
+.card-head-month{
+    font-size: 15px !important;
+    padding-top: 0 !important;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.card-head-position{
+    width: 80%;
+    background: #f4f4f4;
+    border-radius: 20px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: #5a5a5a;
+}
+
+.card-head-position p{
+    padding: 15px 50px;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.card-text{
+    padding-top: 60px;
+    background-color: white;
+}
+
+.card-text ul li{
+    list-style: none;
+}
+
+.card-text button{
+    width: 80%;
+    border-radius: 20px;
+    padding: 15px 0;
+    margin: 35px 0;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: #ed145b;
+}
+
+/* feature section */
+
+.feature{
+
+}
+
+.offer-1{
+    margin-top: 80px;
+}
+
+.offer-1-item{
+
+}
+
+.offer-1-item img{
+    padding-top: 10px;
+}
+
+.offer-1-text{
+    padding: 5px 20px;
+}
+
+.offer-1-text h3{
+    font-size: 15px;
+    color: #ed145b;
+}
+
+.offer-1-text p{
+    font-size: 15px;
+    margin-top: 25px;
+    color: #787878;
+}
+
+/* contact us section */
+
+.contact{
+    background: #ed145b;
+}
+
+.contact-main{
+    padding: 35px 0;
+}
+
+.contact-text{
+
+}
+
+.contact-text h2{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.contact-btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    color: #c3154e;
+}
+
+/* product section */
+
+.img-hover {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.img-hover img{
+    width: 100%;
+}
+
+.img-hover-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(237, 20, 91, 0.7);
+    top: 0;
+    right: 0;
+    opacity: 0;
+}
+
+.img-hover-content .fa {
+    position: absolute;
+    left: 46%;
+    top: 46%;
+    color: white;
+    font-size: 40px;
+}
+
+.update-part h4, p{
+    font-size: 15px;
+}
+
+.update-part p{
+    font-weight: 300;
+}
+.latest-update {
+    padding: 40px 0px !important;
+}
+.latest-update h2{
+    padding-top: 100px;
+}
+
+.latest-update-para {
+    margin-bottom: 60px;
+    font-weight: 300;
+}
+.img-hover:hover .img-hover-content {
+    cursor: pointer;
+    right: 0 !important;
+    top: 0 !important;
+    opacity: 1;
+}
+
+.update-part {
+    margin-top: 30px !important;
+}
+
+.fa-angle-down {
+    font-size: 30px !important;
+
+}
+
+.fa-angle-down:hover {
+    transform: scale(1.3, 1.3);
+    -webkit-transition: : 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    transition: 0.5s ease;
+
+}
+
+.show-more {
+    margin-top: 60px;
+}
+
+/* promo section */
+
+.promo{
+    background: url(../img/contact.png);
+    background-position: center top;
+    background-size: cover;
+}
+
+.contact{
+    color: white;
+}
+
+.contact h2{
+    padding-top: 100px;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 38px;
+}
+.contact p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+.contact button{
+    background: #c3154e;
+    color: white;
+    padding: 1%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* share section */
+
+.share-left{
+    padding: 40px 0;
+}
+
+.share-main{
+    padding: 0 25px;
+}
+
+.share-main h2{
+    font-size: 38px;
+    font-style: italic;
+    font-weight: 300;
+    color: #5a5a5a;
+    padding-top: 80px;
+}
+
+.under-line-share{
+    margin-left: 0 !important;
+    width: 40%;
+}
+
+.share-main p{
+    color: #5a5a5a;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.share-main button{
+    padding: 1%;
+    margin-top: 30px;
+    background: #ed145b;
+    color: white;
+}
+
+/* footer section */
+
+.testimonial {
+    padding: 60px 0px;
+    background: url(../img/slider.png)no-repeat center top;
+    background-size: cover;
+}
+
+.carousel-item .fa{
+    font-size: 40px;
+    color: #ed145b;
+}
+.carousel-item p{
+    padding: 0 130px;
+}
+
+
+
+
+
+
+
+/* media query */
+
+@media (min-width:0) and (max-width:575px){
+    .hero {
+        padding: 30px 0;
+    }
+    .hero h1 {
+        font-size: 30px;
+    }
+    .hero p {
+        font-size: 14px;
+        padding: 0 15px;
+    }
+    .btn-hero {
+        margin: 35px 0 35px;
+        width: 150px;
+        height: 50px;
+        font-size: 13px;
+    }
+    .advertise-left h2 {
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    .advertise {
+        padding: 15px 15px 40px;
+        clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
+    }
+    .advertise-left p {
+        font-size: 14px;
+    }
+    .advertise-video {
+        margin: 10px 0 5px;
+    }
+    .advertise-right-img {
+        width: 52%;
+        top: 83%;
+    }
+    .service-main {
+        padding-top: 80px;
+    }
+    .service-main h2 {
+     
+        font-size: 25px;
+    }
+    .service-main p {
+        font-size: 14px;
+    }
+    .services {
+        padding: 30px 0 15px;
+    }
+    .carousel-item p {
+        padding: 0 35px;
+    }
+    .plans {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .card-head-position {
+        width: 40%; 
+    }
+    .card-head p{
+        padding: 15px 0;
+    }
+    .card-text button {
+        width: 40%;
+    }
+    .offer-1 {
+        margin-top: 20px;
+    }
+    .join-text h2 {
+        font-size: 22px;
+    }
+    .btn-join {
+        width: 150px;
+        font-size: 13px;
+        display: block;
+        margin: 0 auto;
+        height: 40px;
+        margin-top: 15px;
+    }
+    .latest-update h2 {
+        padding-top: 20px;
+        font-size: 25px;
+    }
+    .latest-update-para {
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    .show-more {
+        margin-top: 25px;
+    }
+    .contact h2 {
+        padding-top: 0;
+        font-size: 25px;
+    }
+    .contact p {
+        font-size: 14px;
+    }
+    .contact button {
+        margin-top: 25px;
+        margin-bottom: 5px;
+    }
+    .share-left {
+        padding: 0px 15px;
+    }
+    .share-main h2 {
+        font-size: 25px;
+        padding-top: 30px;
+    }
+    .share-main p {
+        font-size: 14px;
+    }
+    .text-white {
+        text-align: center;
+    }
+    .offer-1-text h3 {
+        font-size: 14px;
+    }
+    .offer-1-text p {
+        font-size: 14px;
+    }
+    .plan-main{
+        padding-top: 0 !important;
+    }
+}
+@media (min-width:575.01px) and (max-width:767px){
+    .hero {
+        padding: 50px 0;
+    }
+    .hero p {
+        font-size: 18px;
+        padding: 0 15px;
+    }
+    .btn-hero {
+        margin: 35px 0 35px;
+        width: 170px;
+        height: 50px;
+        font-size: 13px;
+    }
+    .advertise-left h2 {
+    
+        font-size: 28px;
+        padding-top: 20px;
+    }
+    .advertise-right-img {
+        top: 72%;
+    }
+    .service-main {
+        padding-top: 110px;
+    }
+    .service-main h2 {
+    
+        font-size: 28px;
+    }
+    .carousel-item p {
+        padding: 0 60px;
+    }
+    .plans {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .plan-main {
+        padding-top: 20px !important;
+    }
+    .offer-1 {
+        margin-top: 30px;
+    }
+    .join-text h2 {
+        font-size: 28px;
+    }
+    .join-main {
+        padding: 20px 0;
+    }
+    .btn-join {
+        width: 160px;
+        height: 50px;
+        font-size: 13px;
+        display: block;
+        margin: 10px auto;
+    }
+    .latest-update h2 {
+        padding-top: 30px;
+        font-size: 28px;
+    }
+    .latest-update-para {
+        margin-bottom: 15px;
+        font-weight: 300;
+    }
+    .contact h2 {
+        padding-top: 30px;
+        font-size: 28px;
+    }
+    .contact button {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .share-left {
+        padding: 30px 0;
+    }
+    .share-main h2 {
+        font-size: 28px;
+        padding-top: 0px;
+    }
+    .text-right {
+        text-align: center !important;
+    }
+
+
+
+
+
+
+
+}
+@media (min-width:767.01px) and (max-width:991px){
+    .hero h1 {
+        font-size: 40px;
+    }
+    .hero p {
+    
+        font-size: 20px;
+    }
+    .advertise-left h2 {
+       
+        font-size: 32px;
+        padding-top: 20px;
+    }
+    .advertise-right-img {
+        top: 26%;
+    }
+    .service-main {
+        padding-top: 30px;
+    }
+    .carousel-item p {
+        padding: 0 76px;
+    }
+    .card-head-position p {
+        padding: 15px 0px;
+    }
+    .card-text ul li {
+        font-size: 14px;
+    }
+    .offer-1 {
+        margin-top: 30px;
+    }
+    .offer-1-text h3 {
+        font-size: 14px;
+    }
+    .offer-1-text p {
+        font-size: 14px;
+    }
+    .join-text h2 {
+        font-size: 32px;
+    }
+    .btn-join {
+        width: 160px;
+        height: 50px;
+        
+        font-size: 13px;
+    }
+    .latest-update h2 {
+        padding-top: 30px;
+    }
+    .latest-update-para {
+        margin-bottom: 15px;
+     
+    }
+    .update-part h4, p {
+        font-size: 14px;
+    }
+    .show-more {
+        margin-top: 30px;
+    }
+    .contact h2 {
+        padding-top: 30px;
+        font-size: 32px;
+    }
+    .contact p {
+        font-size: 14px;
+    }
+    .contact button {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .share-main h2 {
+        font-size: 32px;
+        padding-top: 0px;
+    }
+}
+@media (min-width:991.01px) and (max-width:1199px){
+    .advertise-right-img {
+        top: 47%;
+    }
+}
+@media (min-width:1200px) {
+    
+}
